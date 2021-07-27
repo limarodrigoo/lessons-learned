@@ -1,9 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
   color: #e7dfdd;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 main{
   background-color: #0e0b16;
+  display: inline-block;
+  width: 100%;
 }
 h1 {
   font-weight: bold;
@@ -25,6 +33,14 @@ h2 {
   text-align: center;
   padding: 20px 0;
 }
+nav a {
+  text-decoration: none;
+  color: #e7dfdd;
+  padding: 0 10px;
+}
+nav a:hover {
+  font-weight: bold;
+}
 #profile-photo {
   display: inline-block;
   padding: 5% 10% 2% 10%;
@@ -42,25 +58,17 @@ h2 {
 }
 #licoes {
   background-color: #0e0b16;
-  padding: 5% 5%;
+  padding: 10%;
   display: inline-block;
   vertical-align: top;
 }
-ol {
+ol, ul {
   list-style: inside;
   list-style-type: decimal;
   padding: 0 10px 10px 30px;
   text-align: justify;
 }
-ul {
-  list-style: inside;
-  list-style-type: disc;
-  padding: 0 10px 10px 30px;
-  text-align: justify;
-}
-ul li {
-  padding: 1.5px;
-}
+
 #licoes_aprendidas {
   display: inline-block;
   
@@ -71,10 +79,14 @@ ul li {
 
 .postagem-texto {
   text-align: justify;
-  padding: 0 35px;
+  padding: 0 35px 20px 35px;
 }
 .postagem-texto p {
   padding: 5px 0;
+}
+aside {
+  float: right;
+  width: auto;
 }
 #rodape {
   display: inline-block;
