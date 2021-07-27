@@ -47,10 +47,19 @@ h2 {
   vertical-align: top;
 }
 ol {
-  list-style-type: inside;
+  list-style: inside;
   list-style-type: decimal;
   padding: 0 10px 10px 30px;
   text-align: justify;
+}
+ul {
+  list-style: inside;
+  list-style-type: disc;
+  padding: 0 10px 10px 30px;
+  text-align: justify;
+}
+ul li {
+  padding: 1.5px;
 }
 #licoes_aprendidas {
   display: inline-block;
@@ -58,6 +67,14 @@ ol {
 }
 #licoes_a_aprender {
   display: inline-block;
+}
+
+.postagem-texto {
+  text-align: justify;
+  padding: 0 35px;
+}
+.postagem-texto p {
+  padding: 5px 0;
 }
 #rodape {
   display: inline-block;
@@ -70,7 +87,6 @@ ol {
 }
 #socials {
   text-align: center;
-  display: inline-block;
   float: right;
   align-items: center;
   padding: 30px 20px;
