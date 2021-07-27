@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  color: #e7dfdd;
+  color: #E7DFDD;
   margin: 0;
 	padding: 0;
 	border: 0;
@@ -8,8 +8,8 @@ body {
 	font: inherit;
 	vertical-align: baseline;
 }
-main{
-  background-color: #0e0b16;
+main {
+  background-color: #0E0B16;
   display: inline-block;
   width: 100%;
 }
@@ -23,12 +23,12 @@ h2 {
   padding:15px;
 }
 #titulo {
-  color: #0e0b16;
+  color: #0E0B16;
 }
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #e7dfdd;
+  background-color: #E7DFDD;
   width: 100%;
   text-align: center;
 }
@@ -51,7 +51,7 @@ nav ul li {
 nav a:hover {
   font-weight: bold;
   background-color: #0e0b16;
-  color: #e7dfdd;
+  color: #E7DFDD;
 }
 #profile-photo {
   display: inline-block;
@@ -59,7 +59,7 @@ nav a:hover {
 }
 #profile-border {
   background-color: #0e0b16;
-  border: 2.5px solid #e7dfdd;
+  border: 2.5px solid #E7DFDD;
   border-radius: 10px 50%;
   display: inline-block;
 }
@@ -69,7 +69,7 @@ nav a:hover {
   padding: 10px;
 }
 #licoes {
-  background-color: #0e0b16;
+  background-color: #0E0B16;
   padding: 10%;
   display: inline-block;
   vertical-align: top;
@@ -103,16 +103,14 @@ aside {
   float: right;
   width: 30%;
   font-size: 14px;
-  /* padding: 0 40px; */
-  
 }
 
 #rodape {
   display: inline-block;
   width: 100%;
-  color: #0e0b16;
+  color: #0E0B16;
 }
-#rodape-description{
+#rodape-description {
   display: inline-block;
   padding: 40px 20px;
 }
@@ -124,11 +122,11 @@ aside {
   font-size:40px
 }
 #socials a {
-  color: #0e0b16;
+  color: #0E0B16;
   text-decoration: none;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   article {
     width: 100%;
     float: none;
