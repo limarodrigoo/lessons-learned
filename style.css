@@ -23,23 +23,35 @@ h2 {
   padding:15px;
 }
 #titulo {
-  color: #e7dfdd;
+  color: #0e0b16;
 }
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #0e0b16;
+  background-color: #e7dfdd;
   width: 100%;
   text-align: center;
-  padding: 20px 0;
+}
+nav {
+  text-align: center;
+  padding: 0;
 }
 nav a {
   text-decoration: none;
-  color: #e7dfdd;
-  padding: 0 10px;
+  color: #0e0b16;
+  padding: 0 10px 0 0;
+}
+nav ul {
+  list-style: inside;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
 }
 nav a:hover {
   font-weight: bold;
+  background-color: #0e0b16;
+  color: #e7dfdd;
 }
 #profile-photo {
   display: inline-block;
@@ -64,19 +76,22 @@ nav a:hover {
 }
 ol, ul {
   list-style: inside;
-  list-style-type: decimal;
   padding: 0 10px 10px 30px;
   text-align: justify;
 }
 
 #licoes_aprendidas {
   display: inline-block;
+  list-style-type: decimal;
   
 }
 #licoes_a_aprender {
   display: inline-block;
 }
-
+article {
+  width: 70%;
+  float: left;
+}
 .postagem-texto {
   text-align: justify;
   padding: 0 35px 20px 35px;
@@ -86,8 +101,12 @@ ol, ul {
 }
 aside {
   float: right;
-  width: auto;
+  width: 30%;
+  font-size: 14px;
+  /* padding: 0 40px; */
+  
 }
+
 #rodape {
   display: inline-block;
   width: 100%;
@@ -107,4 +126,18 @@ aside {
 #socials a {
   color: #0e0b16;
   text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+  article {
+    width: 100%;
+    float: none;
+  }
+  aside {
+    float: none;
+    width: 100%;
+    font-size: 14px;
+    clear: both;
+    padding: 0 35px;
+  }
 }
