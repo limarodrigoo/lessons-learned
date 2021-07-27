@@ -2,6 +2,9 @@ body {
   background-color: rgb(253, 251, 251);
   color: #e7dfdd;
 }
+main{
+  background-color: #0e0b16;
+}
 h1 {
   font-weight: bold;
   font-size: 30px;
@@ -22,17 +25,37 @@ h2 {
   text-align: center;
   padding: 20px 0;
 }
+#profile-photo {
+  display: inline-block;
+  padding: 5% 10% 2% 10%;
+}
+#profile-border {
+  background-color: #0e0b16;
+  border: 2.5px solid #e7dfdd;
+  border-radius: 10px 50%;
+  display: inline-block;
+}
 #minha_foto {
-  padding: 0 35%;
-  width: 30%;
+  border-radius: 10px 50%;
+  width: 240px;
+  padding: 10px;
 }
 #licoes {
   background-color: #0e0b16;
+  padding: 5% 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+ol {
+  list-style-type: inside;
+  list-style-type: decimal;
+  padding: 0 10px 10px 30px;
+  text-align: justify;
 }
 #licoes_aprendidas {
   display: inline-block;
-  list-style: inside;
-  list-style-type: decimal;
-  text-align: justify;
-  padding: 0 15px 15px 30px;
+  
+}
+#licoes_a_aprender {
+  display: inline-block;
 }
