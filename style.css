@@ -1,3 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
+  color: #e7dfdd;
+}
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+#cabecalho{
+  position: fixed;
+  top: 0;
+  background-color: #0e0b16;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
 }
