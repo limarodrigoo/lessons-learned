@@ -59,3 +59,24 @@ ol {
 #licoes_a_aprender {
   display: inline-block;
 }
+#rodape {
+  display: inline-block;
+  width: 100%;
+  color: #0e0b16;
+}
+#rodape-description{
+  display: inline-block;
+  padding: 40px 20px;
+}
+#socials {
+  text-align: center;
+  display: inline-block;
+  float: right;
+  align-items: center;
+  padding: 30px 20px;
+  font-size:40px
+}
+#socials a {
+  color: #0e0b16;
+  text-decoration: none;
+}
