@@ -1,15 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
-  color: #E7DFDD;
+  color: #e7dfdd;
   margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+  font-family: 'Roboto', sans-serif;;
 	vertical-align: baseline;
 }
 main {
-  background-color: #0E0B16;
+  background-color: #0e0b16;
   display: inline-block;
   width: 100%;
 }
@@ -22,13 +22,18 @@ h2 {
   font-size: 20px;
   padding:15px;
 }
+ol, ul {
+  list-style: inside;
+  padding: 0 10px 10px 30px;
+  text-align: justify;
+}
 #titulo {
-  color: #0E0B16;
+  color: #0e0b16;
 }
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #E7DFDD;
+  background-color: #e7dfdd;
   width: 100%;
   text-align: center;
 }
@@ -51,7 +56,7 @@ nav ul li {
 nav a:hover {
   font-weight: bold;
   background-color: #0e0b16;
-  color: #E7DFDD;
+  color: #e7dfdd;
 }
 #profile-photo {
   display: inline-block;
@@ -59,7 +64,7 @@ nav a:hover {
 }
 #profile-border {
   background-color: #0e0b16;
-  border: 2.5px solid #E7DFDD;
+  border: 2.5px solid #e7dfdd;
   border-radius: 10px 50%;
   display: inline-block;
 }
@@ -69,15 +74,10 @@ nav a:hover {
   padding: 10px;
 }
 #licoes {
-  background-color: #0E0B16;
+  background-color: #0e0b16;
   padding: 10%;
   display: inline-block;
   vertical-align: top;
-}
-ol, ul {
-  list-style: inside;
-  padding: 0 10px 10px 30px;
-  text-align: justify;
 }
 
 #licoes_aprendidas {
@@ -103,12 +103,13 @@ aside {
   float: right;
   width: 30%;
   font-size: 14px;
+  line-height: 30px;
 }
 
 #rodape {
   display: inline-block;
   width: 100%;
-  color: #0E0B16;
+  color: #0e0b16;
 }
 #rodape-description {
   display: inline-block;
@@ -119,14 +120,14 @@ aside {
   float: right;
   align-items: center;
   padding: 30px 20px;
-  font-size:40px
+  font-size: 40px;
 }
 #socials a {
-  color: #0E0B16;
+  color: #0e0b16;
   text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and ( max-width : 900px ) {
   article {
     width: 100%;
     float: none;
